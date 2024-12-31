@@ -1,7 +1,7 @@
-"""VectGan is a conditional Table GAN with a VAE extension.
+"""VectGan is a Variationally Encoded Conditional Tabular GAN.
 
 This module contains the main classes, modules, and functions
-to run and train a CTGAN with a variational autoencoder (VAE).
+to run and train VECT GAN for tabular data generation.
 """
 
 import logging
