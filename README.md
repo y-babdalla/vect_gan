@@ -13,8 +13,6 @@ Data scarcity in pharmaceutical research has led to reliance on labour-intensive
 **Preprint**: https://arxiv.org/abs/2501.08995 
 
 
-VECT-GAN is a research-oriented Python package designed to generate synthetic tabular data. 
-
 ---
 
 ## Table of Contents
