@@ -1,11 +1,17 @@
 # VECT-GAN: A Variationally Encoded Generative Model for Overcoming Data Scarcity in Pharmaceutical Science
 
-> **Authors**: Youssef Abdalla, Marrisa Taub, Priya Akkaru, Eleanor Hilton, Alexander Milanovic, Mine Orlu, Abdul W. Basit, Michael T Cook, Tapabrata Chakraborti, David Shorthouse  
+> **Authors**: Youssef Abdalla, Marissa Taub, Priya Akkaru, Eleanor Hilton, Alexander Milanovic, Mine Orlu, Abdul W. Basit, Michael T Cook, Tapabrata Chakraborti, David Shorthouse  
 > **Institutions**:
 >  - Department of Pharmaceutics, UCL School of Pharmacy, University College London, London, UK  
->  - The Alan Turing Institute, London, UK  
+>  - The Alan Turing Institute, London, UK
+>  - UCL Department of Medical Physics and Biomedical Engineering, University College London, Malet Place Engineering Building, 2 Malet Place, London WC1E 7JE, UK
+>  - UCL Cancer Institute, University College London, Paul O'Gorman Building, 72 Huntley Street, London WC1E 6DD, UK
+> **Abstract**:
+> Data scarcity in pharmaceutical research has led to reliance on labour-intensive trial-and-error approaches for development rather than data-driven methods. While Machine Learning offers a solution, existing datasets are often small and/or noisy, limiting their utility. To address this, we developed a Variationally Encoded Conditional Tabular Generative Adversarial Network (VECT-GAN), a novel generative model specifically designed for augmenting small, noisy datasets. We introduce a pipeline where data is augmented before regression model development and demonstrate that this consistently and significantly improves performance over other state-of-the-art tabular generative models. We apply this pipeline across six pharmaceutical datasets, and highlight its real-world applicability by developing novel polymers with medically desirable mucoadhesive properties, which we made and experimentally characterised. Additionally, we pre-train the model on the ChEMBL database of drug-like molecules, leveraging knowledge distillation to enhance its generalisability, making it readily available for use on pharmaceutical datasets containing small molecules – an extremely common pharmaceutical task. We demonstrate the power of synthetic data for regularising small tabular datasets, highlighting its potential to become standard practice in pharmaceutical model development, and make our method, including VECT-GAN pre-trained on ChEMBL available as a pip package at: https://pypi.org/project/vect-gan/
+> **Preprint**: https://arxiv.org/abs/2501.08995 
 
-VECT-GAN is a research-oriented Python package designed to generate synthetic tabular data, specifically focused on molecular data. Its functionality includes data transformation, conditional data sampling, and model fine-tuning. Although developed for generating molecular data, the principles can be easily adapted to other domains.
+
+VECT-GAN is a research-oriented Python package designed to generate synthetic tabular data. 
 
 ---
 
